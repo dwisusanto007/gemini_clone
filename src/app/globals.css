@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Hide Next.js devtools indicator in production-like UI (if present) */
+#devtools-indicator {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
